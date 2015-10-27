@@ -1,0 +1,28 @@
+.custom_button {
+    padding: 14px 24px;
+    width: 20rem;
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 10px;
+    background-color: #CCCCB2;
+}
+
+.container {
+  margin-top: 12rem; 
+}
+
+.phrase2 {
+  font-size: 24px;
+}
+
+#move {
+  margin-top: 4rem;
+}
+
+.jumbotron {
+  height: 50rem;
+}
+
+.print_quote {
+  margin-top: 30px;
+}
