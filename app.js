@@ -58,7 +58,8 @@ $(document).ready(function() {
 
     // lets print a random quote
     $("button").click(function(){
-    	var random_number = Math.floor(Math.random() * 50) + 0;
+    	var random_number;
+    	random_number = Math.floor(Math.random() * 50) + 0;
         $(".print_quote").html('\"' + array[random_number][0] + '\"' + '<br>' + array[random_number][1]);
     });
 });
