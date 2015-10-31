@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
-    $(".btn").mouseup(function() {
-        $(this).blur();
-  	});
+        $(".btn").mouseup(function() {
+            $(this).blur();
+        });
 	
 	// lets put our famous quotes into a two dimensional array
 	var array = [["Whatever the mind of man can conceive and believe, it can achieve.", "Napoleon Hill"],
@@ -56,10 +56,10 @@ $(document).ready(function() {
 	  ["Everything has beauty, but not everyone can see.", "Confucius"],
 	  ["How wonderful it is that nobody need wait a single moment before starting to improve the world.", "Anne Frank"]];
 
-    // lets print a random quote
-    $("button").click(function(){
-        var random_number;
-    	random_number = Math.floor(Math.random() * 50) + 0;
-        $(".print_quote").html('\"' + array[random_number][0] + '\"' + '<br>' + array[random_number][1]);
-    });
+        // lets print a random quote
+        $("button").click(function(){
+            var random_number;
+    	    random_number = Math.floor(Math.random() * 50) + 0;
+            $(".print_quote").html('\"' + array[random_number][0] + '\"' + '<br>' + array[random_number][1]);
+        });
 });
