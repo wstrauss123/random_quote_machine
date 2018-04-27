@@ -4,7 +4,7 @@
     font-size: 18px;
     line-height: 18px;
     border-radius: 10px;
-    background-color: #CCCCB2;
+    background-color: #4f0099;
 }
 
 .container {
@@ -21,6 +21,13 @@
 
 .jumbotron {
   height: 72rem;
+  background-color: #1a0033;
+  color: white;
+}
+
+body {
+  background-color: #1a0033;
+  color: white;
 }
 
 .print_quote {
